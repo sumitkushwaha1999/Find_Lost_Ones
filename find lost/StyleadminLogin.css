@@ -1,0 +1,42 @@
+body{
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#1e5799+0,2989d8+50,207cca+51,7db9e8+100;Blue+Gloss+Default */
+  background: #1e5799; /* Old browsers */
+  background: -moz-linear-gradient(-45deg,  #1e5799 0%, #2989d8 50%, #207cca 51%, #7db9e8 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg,  #1e5799 0%,#2989d8 50%,#207cca 51%,#7db9e8 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg,  #1e5799 0%,#2989d8 50%,#207cca 51%,#7db9e8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+  
+  }
+.loginContainer{
+    margin: auto;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: white;
+    padding: 100px;
+    margin-bottom: 20px;
+    border: 5px solid black;
+  border-radius: 5px;
+  box-shadow: 0 0 10px 10px grey;
+}
+.loginContainer input{
+    margin-bottom: 20px;
+    width: 50%;
+    padding: 10px;
+    font-size: large;
+}
+#submit{
+    background-color: #2989d8;
+    color: white;
+    font-style: italic;
+    font-size: 30px;
+}
+footer{
+    padding-top: 20px;
+    background-color: black;
+    height: 60px;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+  }

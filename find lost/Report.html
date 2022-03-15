@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>
+            Report
+        </title>
+        <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="StyleReport.css">
+    </head>
+    <body>
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Finding Lost One</a>
+              </div>
+              <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                  <li class="active"><a href="/find lost/Home.html">Home</a></li>
+                  <li><a href="/find lost/Report.html" id="report">Report</a></li>
+                  <li><a href="/find lost/Finding.php" id="find">Find</a></li>
+                  <li><a href="/find lost/Erase.php" id="erase">Erase</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                  <li><a href="/find lost/adminLogin.php"><span class="glyphicon glyphicon-user"></span> Admin</a></li>
+                </ul>
+              </div>
+            </div>
+        </nav>
+            <div class="formContainer">
+                <h1 id="head1">Reporting</h1>
+            <form action="insert.php" method="POST" id="formHead" enctype="multipart/form-data">
+                <fieldset id="report_fs">
+                    <label for="name" >Name:</label>
+                    <input type="text"  class="textArea" name="name">
+                    <br>
+                    <br>
+                    <label >Gender:</label>
+                    <br>
+                    <input type="radio" name="gender" value="Male">
+                    <label for="Male" >Male</label>
+                    <br>
+                    <input type="radio" name="gender" value="Female">
+                    <label for="Female" >Female</label>
+                    <br>
+                    <input type="radio" name="gender" value="Transgender">
+                    <label for="Transgender" >Transgender</label>
+                    <br>
+                    <br>
+                    <label for="apxage" >Approx. Age</label>
+                    <input type="text"  class="textArea" name="apxage">
+                    <br>
+                    <br>
+                    <label for="ccolor" >Cloth Color:</label>
+                    <input type="text"  class="textArea" name="ccolor">
+                    <br>
+                    <br>
+                    <label for="cnumber" >Contact No:</label>
+                    <input type="text"  class="textArea" name="cnumber">
+                    <br>
+                    <br>
+                    <label for="eml" >Email:</label>
+                    <input type="text" class="textArea"  name="eml">
+                    <br>
+                    <br>
+                    <label for="location" >Location:</label>
+                    <input type="text"  class="textArea" name="location">
+                    <br>
+                    <br>
+                    <label >Skin:</label>
+                    <br>
+                    <input type="radio" name="skin" value="Wheat">
+                    <label for="skin" >Wheat</label>
+                    <br>
+                    <input type="radio" name="skin" value="Fair">
+                    <label for="skin" >Fair</label>
+                    <br>
+                    <input type="radio" name="skin" value="Black">
+                    <label for="skin" >Black</label>
+                    <br>
+                    <br>
+                    <label >Image Upload:</label><br><br>
+                    <label>Upload Image 1:</label>
+                    <input type="file" name="image1" value="Image Upload" />
+                    <br>
+                    <label>Upload Image 2:</label>
+                    <input type="file" name="image2" value="Image Upload" />
+                    <br>
+                    <input type="submit"   id="submit" name="upload" value="Submit">
+                </fieldset>
+            </form>
+            </div>
+            <footer>
+                <span class="copyright">Major project for final year GLBITM,Greater Noida </span>
+              </footer>
+        
+    </body>
+</html>
